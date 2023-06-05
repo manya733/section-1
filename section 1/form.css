@@ -1,0 +1,38 @@
+*
+{
+    padding :0px;
+    margin:0px;
+    font-family:sans-serif;
+}
+body{
+    background:url('./bcg.jpg') ;
+    background-size: cover;
+    color:black;
+}
+
+ label
+{
+    
+    color:black;
+    font-size: 40px;
+}
+div.main{
+
+    margin-top: 50px;
+    
+    
+
+}
+div.register{
+
+width:100%;
+font-size:25px;
+
+
+}
+input{
+    font-size: 40px;
+}
+.button{
+    font-size:large;
+}

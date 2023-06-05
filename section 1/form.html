@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+   
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   
+    
+    
+    <h1 class="mytag" style="text-align: center;color:black;font-size: 50px;">Student Registrartion Form</h1>
+    <div class="main">
+        <div class="register">
+    <form action ="register" method="post">
+       
+        <label   for="name">FIRST NAME : </label>
+        <input type="text" id ="name">
+        <br>
+        <br>
+        <br>
+  
+        <label for="name">LAST NAME :</label>
+        <input type="text" id ="name">
+        <br>
+        <br>
+        <br>
+        <label for="">DATE OF BIRTH :</label>
+        <input type="date">
+        <br/>
+        <br/>
+        <br>
+        <label for="">EMAIL ID :</label>
+        <input type="email"/>
+        <br/>
+        <br/>
+        <br>
+        <label for="">MOBILE Number :</label>
+        <input type="tel"/>
+        <br/>
+        <br/>
+        <br>
+        <label for="">GENDER :</label>
+        <select>
+            <option >SELECT</option>
+            <option >MALE</option>
+            <option >FEMALE</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <label for="">ADDRESS :</label>
+        <input type="add">
+        <br>
+        <br>
+        <br>
+        <label for="">CITY :</label>
+        <input type="city">
+        <br>
+        <br>
+        <br>
+
+        <label for="">Select State :</label>
+        <select >
+            <option >Uttar Pradesh</option>
+            <option >Delhi</option>
+            <option >Bihar</option>
+            <option >Gujarat</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="">Select board :</label>
+        <input type="text" list="Board">
+
+        <datalist id="Board">
+            <option >CBSE</option>
+            <option >ICSE</option>
+            <option >UP BOARD</option>
+            <option >MP BOARD</option>
+        </datalist>
+        <label for=""> SELECT QUALIFICATION :</label>
+       <input type="text" list="Qualification">
+       <datalist id="Qualification">
+        <option>Class X</option>
+        <option>Class XII</option>
+        <option> GRADUATION</option>
+        <option> MASTERS</option>
+    </datalist>
+   <label for="">Percentage : </label>
+   <input type="percent">
+   <br>
+   <br>
+<br>
+<br>
+<label for="">COURSE APPLIED FOR : </label>
+<input type="text"list="Course">
+<datalist id ="Course">
+    <option >B.COM</option>
+    <option >BCA</option>
+    <option >B.TECH</option>
+    <option >BSC</option>
+    <option >BA</option>
+</datalist>
+<br>
+<br>
+
+<button >Submit
+
+    
+</button>
+<button>
+    Reset
+</button>
+        
+        
+    </form>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <style>
+        *{
+            font-family: Montserrat;
+        }
+        .mycart{
+            border:2px solid red;
+            width: 30%;
+            border-radius: 20px;
+            box-shadow: 2px 3px 5px 3px rgba(0,0,0,0.475);
+            /*x-offset y-offset blur size color*/
+            padding: 30px ;
+            box-sizing: border-box;
+            background-color: white;
+            
+
+
+
+        }
+        body{
+            display: flex;
+            margin:0;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("https://marketplace.canva.com/EAFNf5vtYfI/2/0/400w/canva-cream-green-minimalist-zoom-virtual-background-hwQ4LuQq08Q.jpg");
+             background-size:cover ;
+             backdrop-filter: blur(10px);
+            
+             
+        }
+        .myinput{
+            display:block;
+            width:100%;
+            padding: 5px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            padding:10px 20px;
+            border-radius:5px;
+            border:none;
+            border-bottom: 2px solid black;
+            background-color: #e8e2e2;
+           
+
+        }
+        .mybtn{
+            width:100%;
+            background-color: blueviolet;
+            padding:10px 5px;
+            color:white;
+            margin-top:20px;
+            margin-bottom: 30px;
+            border:none;
+            border-radius: 5px;
+            transition-property: all;
+            transition-duration: 300ms;
+           
+           
+        }
+        .brand{
+            font-size: 40px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            text-align: center;
+        }
+        .text{
+            text-align: center;
+        }
+        form{
+          margin-top:50px;
+        }
+        .mybtn:hover{
+            transform:scale(1.1) translateY(5px);
+            box-shadow: 0 -10px 10px -5px #111010;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+</head>
+<body>
+    <div class="mycart">
+        <p class="brand">Brand Logo</p>
+        <h2 class="text">Member Login</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, maxime.
+         </p>
+         <form>
+         <label for="">Email Address</label>
+         <input  class="myinput" type="email">
+         <label for="">Password</label>
+         <input   class="myinput" type="password">
+         <button class="mybtn">Submit</button>
+         </form>
+    </div>
+    
+</body>
+</html>
