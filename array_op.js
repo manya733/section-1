@@ -20,3 +20,11 @@ console.log(res);
 prices=[2345,2388,9993,7500,23567];
 const pr=prices.map((n)=>{return n/10});
 console.log(pr);
+
+ const res2=nums.filter((a)=>{return a %2==0});
+ console.log(res2);
+
+//less than 10,000 greater than 5000
+const res3= prices.filter((a)=>{ return a<10000&&a>5000});
+console.log(res3);
+
